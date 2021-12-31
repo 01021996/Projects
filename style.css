@@ -1,0 +1,80 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+/* descendant selector  */
+header h1{
+    font-weight: 400;
+
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    margin: 0 10rem;
+    
+}
+nav{
+    /* helps us to move top left right etc  */
+    position: relative;
+    top: 1rem;
+    right: 3rem;
+    width: 20rem;
+    display: flex;
+    justify-content: s;
+}
+
+ul{
+   /* display: flex; used for alignment side by side */
+   display: flex;
+   /* space-between is used to set space between the different li  */
+   justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    font-size: 1.5rem;
+    margin:0px 35px;
+}
+
+.showcase_img{
+    /* view width and view height is used for responsiveness */
+    width: 95vw;
+    margin: 1rem;
+}
+
+article{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    margin-right: 2rem;
+    text-align: center;
+    font-size: 20px;
+    padding: 1rem;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 4rem;
+    display: flex;
+    /* horizontally center me krne justify content ,uesd with flex */
+    justify-content: center;
+      /* vertically center me krne justify content ,used with flex */
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* pseudo classes  */
+a:hover{
+    color: red;
+}
